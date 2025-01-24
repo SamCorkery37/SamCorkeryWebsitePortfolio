@@ -1,0 +1,19 @@
+/* src/styles/logoStyles.css */
+
+/* Base styles for all icons */
+.social-icon {
+    width: 1.5rem;
+    /* Adjust size (1.5rem = 24px) */
+    height: 1.5rem;
+    filter: brightness(0) saturate(100%) invert(78%) sepia(29%) saturate(224%) hue-rotate(310deg) brightness(95%) contrast(89%);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    /* Smooth scaling and opacity change */
+}
+
+/* Hover effect */
+.social-icon:hover {
+    opacity: 0.8;
+    /* Slightly dim */
+    transform: scale(1.2);
+    /* Increase size by 20% */
+}
