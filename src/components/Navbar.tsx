@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
         <nav className="bg-gray-800 text-white p-4">
             <div className="container mx-auto flex justify-between items-center">
-                <h1 className="text-xl font-bold">Sam Corkery</h1>
+                <h1 className="text-xl font-bold text-[#e793a7]">Sam Corkery</h1>
                 <ul className="flex space-x-3">
                     <li>
                         <a
