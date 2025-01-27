@@ -17,3 +17,49 @@
     transform: scale(1.2);
     /* Increase size by 20% */
 }
+
+/* Navbar container styles */
+.navbar {
+    background-color: #1f2937;
+    /* Tailwind's bg-gray-800 */
+    color: white;
+    padding: 1.5rem 0;
+    /* Increased padding for a larger navbar */
+}
+
+/* Title (e.g., Sam Corkery) styles */
+.navbar-title {
+    font-size: 2.5rem;
+    /* Large text size */
+    font-weight: bold;
+    color: #e793a7;
+    transition: color 0.3s ease;
+}
+
+.navbar-title:hover {
+    color: #ffadc2;
+    /* Slightly lighter pink on hover */
+}
+
+/* Social icon styles */
+.social-icon {
+    width: 3rem;
+    /* 48px width */
+    height: 3rem;
+    /* 48px height */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+    /* Slightly scale up the icon on hover */
+    opacity: 0.8;
+    /* Dim the icon slightly for a nice effect */
+}
+
+/* Aligning navbar items */
+.navbar-list {
+    display: flex;
+    gap: 1.5rem;
+    /* Tailwind's space-x-6 equivalent */
+}

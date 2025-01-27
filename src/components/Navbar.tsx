@@ -1,11 +1,12 @@
+import React from "react";
 import '@/styles/logoStyles.css';
 
 export default function Navbar() {
     return (
-        <nav className="bg-gray-800 text-white p-4">
+        <nav className="bg-gray-800 text-white py-6">
             <div className="container mx-auto flex justify-between items-center">
-                <h1 className="text-xl font-bold text-[#e793a7]">Sam Corkery</h1>
-                <ul className="flex space-x-3">
+                <h1 className="text-3xl font-bold text-[#e793a7]">Sam Corkery</h1>
+                <ul className="flex space-x-6">
                     <li>
                         <a
                             href="https://github.com/YourGitHubUsername"
@@ -15,7 +16,7 @@ export default function Navbar() {
                             <img
                                 src="/icons/github.png"
                                 alt="GitHub"
-                                className="social-icon"
+                                className="social-icon w-10 h-10"
                             />
                         </a>
                     </li>
@@ -28,7 +29,7 @@ export default function Navbar() {
                             <img
                                 src="/icons/youtube.png"
                                 alt="YouTube"
-                                className="social-icon"
+                                className="social-icon w-10 h-10"
                             />
                         </a>
                     </li>
@@ -41,7 +42,7 @@ export default function Navbar() {
                             <img
                                 src="/icons/linkedin.png"
                                 alt="LinkedIn"
-                                className="social-icon"
+                                className="social-icon w-10 h-10"
                             />
                         </a>
                     </li>
@@ -54,7 +55,7 @@ export default function Navbar() {
                             <img
                                 src="/icons/instagram.png"
                                 alt="Instagram"
-                                className="social-icon"
+                                className="social-icon w-10 h-10"
                             />
                         </a>
                     </li>
@@ -67,7 +68,7 @@ export default function Navbar() {
                             <img
                                 src="/icons/facebook.png"
                                 alt="Facebook"
-                                className="social-icon"
+                                className="social-icon w-10 h-10"
                             />
                         </a>
                     </li>
@@ -76,4 +77,3 @@ export default function Navbar() {
         </nav>
     );
 }
-

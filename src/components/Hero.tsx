@@ -23,7 +23,7 @@ export default function Hero() {
                 {/* Text Description */}
                 <div>
                     <h1 className="text-5xl font-bold text-[#e793a7]">Sam Corkery</h1>
-                    <p className="text-2xl text-gray-300 mt-3">Game Developer | Web Developer | Creator</p>
+                    <p className="text-2xl text-gray-300 mt-3">Game Developer | Web Developer | Producer | Video Editor</p>
                     <p className="text-lg text-gray-400 mt-4 max-w-lg">
                         Passionate about creating immersive gaming experiences and writing clean, efficient code. Focused on solving challenges in game development and web technologies.
                     </p>
