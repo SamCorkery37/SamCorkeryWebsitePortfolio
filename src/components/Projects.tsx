@@ -1,7 +1,7 @@
 export default function Projects() {
     const projects = [
         {
-            title: "Unity Game: SliceMaster",
+            title: "Overwhelmingly Positive 2022",
             description:
                 "A first-person sword-fighting game with realistic slicing mechanics.",
             image: "/project1.jpg",
