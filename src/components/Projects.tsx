@@ -1,3 +1,5 @@
+import '@/styles/projects.css';
+
 export default function Projects() {
     const projects = [
         {
@@ -73,12 +75,32 @@ export default function Projects() {
                     </h2>
                     <div className="flex flex-wrap justify-center gap-6">
                         {skills.map((skill, index) => (
-                            <span
-                                key={index}
-                                className="px-6 py-3 rounded-lg border-2 border-[#e793a7] text-[#e793a7] text-lg font-bold"
-                            >
-                                {skill}
-                            </span>
+                            <div key={index} className="relative group">
+                                <span className="skill-block">{skill}</span>
+                                <div className="tooltip">
+                                    {skill === "Java"
+                                        ? "Built many backend libraries using Java"
+                                        : skill === "C++"
+                                            ? "Developed performance-critical systems with C++"
+                                            : skill === "C#"
+                                                ? "Created Unity game scripts with C#"
+                                                : skill === "JavaScript"
+                                                    ? "Designed interactive UIs with JavaScript"
+                                                    : skill === "Python"
+                                                        ? "Automated workflows with Python scripts"
+                                                        : skill === "Unity"
+                                                            ? "Developed games using Unity"
+                                                            : skill === "Unreal Engine"
+                                                                ? "Built immersive worlds in Unreal Engine"
+                                                                : skill === "Lua"
+                                                                    ? "Scripted game logic using Lua"
+                                                                    : skill === "Git"
+                                                                        ? "Managed version control with Git"
+                                                                        : skill === "Perforce"
+                                                                            ? "Collaborated on large projects with Perforce"
+                                                                            : ""}
+                                </div>
+                            </div>
                         ))}
                     </div>
                 </div>
