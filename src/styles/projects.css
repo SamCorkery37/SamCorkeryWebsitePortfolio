@@ -53,3 +53,88 @@
     opacity: 1;
     pointer-events: auto;
 }
+
+.skill-block[class*="text-[#e793a7]"] {
+    color: #e793a7;
+    /* Programming Languages */
+}
+
+.skill-block[class*="text-[#93c5fd]"] {
+    color: #93c5fd;
+    /* Engines */
+}
+
+.skill-block[class*="text-[#fbbf24]"] {
+    color: #fbbf24;
+    /* Video Applications */
+}
+
+.skill-block:hover {
+    transform: scale(1.1);
+    /* Slight scaling effect */
+    transition: transform 0.2s ease;
+}
+
+/* Programming Languages */
+.skill-block.programming {
+    color: E6B9DE7;
+    /* Text color */
+    border: 2px solid E6B9DE;
+    /* Pink border */
+    background-color: transparent;
+    /* Transparent background */
+}
+
+.skill-block.programming:hover {
+    box-shadow: 0 0 20px E6B9DE, 0 0 40px E6B9DE0 0 60px E6B9DE;
+    transform: scale(1.1);
+    /* Slight scaling effect */
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+/* Engines */
+.skill-block.engines {
+    color: #93c5fd;
+    /* Blue text color */
+    border: 2px solid #93c5fd;
+    /* Blue border */
+    background-color: transparent;
+    /* Transparent background */
+}
+
+.skill-block.engines:hover {
+    box-shadow: 0 0 20px #93c5fd, 0 0 40px #93c5fd, 0 0 60px #93c5fd;
+    transform: scale(1.1);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+/* Video Applications */
+.skill-block.video {
+    color: #4942E4;
+    /* Yellow text color */
+    border: 2px solid #4942E4;
+    /* Yellow border */
+    background-color: transparent;
+    /* Transparent background */
+}
+
+.skill-block.video:hover {
+    box-shadow: 0 0 20px #4942E4, 0 0 40px #4942E4, 0 0 60px #4942E4;
+    transform: scale(1.1);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+/* Frameworks */
+.skill-block.frameworks {
+    color: #FAE7F3;
+    /* Light pink text color */
+    border: 2px solid #FAE7F3;
+    /* Light pink border */
+    background-color: transparent;
+}
+
+.skill-block.frameworks:hover {
+    box-shadow: 0 0 20px #FAE7F3, 0 0 40px #FAE7F3, 0 0 60px #FAE7F3;
+    transform: scale(1.1);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}

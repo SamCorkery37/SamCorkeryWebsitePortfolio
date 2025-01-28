@@ -30,11 +30,12 @@ export default function Projects() {
         "JavaScript",
         "Unity",
         "Unreal Engine",
-        "Lua",
         "Python",
         "Java",
         "Git",
-        "Perforce",
+        "Premiere Pro",
+        "Final Cut",
+        "After Effects",
     ];
 
     return (
@@ -67,42 +68,81 @@ export default function Projects() {
                         </div>
                     ))}
                 </div>
+            </div>
 
-                {/* Technical Skills Section */}
-                <div className="mt-12">
-                    <h2 className="text-4xl font-bold text-[#e793a7] mb-8 text-center">
-                        Technical Experience
-                    </h2>
-                    <div className="flex flex-wrap justify-center gap-6">
-                        {skills.map((skill, index) => (
-                            <div key={index} className="relative group">
-                                <span className="skill-block">{skill}</span>
-                                <div className="tooltip">
-                                    {skill === "Java"
-                                        ? "Built many backend libraries using Java"
-                                        : skill === "C++"
-                                            ? "Developed performance-critical systems with C++"
-                                            : skill === "C#"
-                                                ? "Created Unity game scripts with C#"
-                                                : skill === "JavaScript"
-                                                    ? "Designed interactive UIs with JavaScript"
-                                                    : skill === "Python"
-                                                        ? "Automated workflows with Python scripts"
-                                                        : skill === "Unity"
-                                                            ? "Developed games using Unity"
-                                                            : skill === "Unreal Engine"
-                                                                ? "Built immersive worlds in Unreal Engine"
-                                                                : skill === "Lua"
-                                                                    ? "Scripted game logic using Lua"
-                                                                    : skill === "Git"
-                                                                        ? "Managed version control with Git"
-                                                                        : skill === "Perforce"
-                                                                            ? "Collaborated on large projects with Perforce"
-                                                                            : ""}
-                                </div>
+            {/* Technical Skills Section */}
+            <div className="mt-12">
+                <h2 className="text-4xl font-bold text-[#e793a7] mb-8 text-center">
+                    Technical Experience
+                </h2>
+                <div className="flex flex-wrap justify-center gap-6">
+                    {/* Programming Languages */}
+                    {["Java", "C++", "C#", "JavaScript", "Python", "Lua"].map((skill, index) => (
+                        <div key={index} className="relative group">
+                            <span className="skill-block programming">{skill}</span>
+                            <div className="tooltip">
+                                {skill === "Java"
+                                    ? "Built many backend libraries using Java"
+                                    : skill === "C++"
+                                        ? "Developed performance-critical systems with C++"
+                                        : skill === "C#"
+                                            ? "Created Unity game scripts with C#"
+                                            : skill === "JavaScript"
+                                                ? "Designed interactive UIs with JavaScript"
+                                                : skill === "Python"
+                                                    ? "Automated workflows with Python scripts"
+                                                    : skill === "Lua"
+                                                        ? "Scripted game logic using Lua"
+                                                        : ""}
                             </div>
-                        ))}
-                    </div>
+                        </div>
+                    ))}
+
+                    {/* Frameworks */}
+                    {["React", "Angular", "Django"].map((framework, index) => (
+                        <div key={index} className="relative group">
+                            <span className="skill-block frameworks">{framework}</span>
+                            <div className="tooltip">
+                                {framework === "React"
+                                    ? "Built dynamic web apps using React"
+                                    : framework === "Angular"
+                                        ? "Created scalable applications with Angular"
+                                        : framework === "Django"
+                                            ? "Developed robust backends with Django"
+                                            : ""}
+                            </div>
+                        </div>
+                    ))}
+
+                    {/* Engines */}
+                    {["Unity", "Unreal Engine"].map((engine, index) => (
+                        <div key={index} className="relative group">
+                            <span className="skill-block engines">{engine}</span>
+                            <div className="tooltip">
+                                {engine === "Unity"
+                                    ? "Developed games using Unity"
+                                    : engine === "Unreal Engine"
+                                        ? "Built immersive worlds in Unreal Engine"
+                                        : ""}
+                            </div>
+                        </div>
+                    ))}
+
+                    {/* Video Applications */}
+                    {["Premiere Pro", "After Effects", "DaVinci Resolve"].map((app, index) => (
+                        <div key={index} className="relative group">
+                            <span className="skill-block video">{app}</span>
+                            <div className="tooltip">
+                                {app === "Premiere Pro"
+                                    ? "Edited professional videos with Premiere Pro"
+                                    : app === "After Effects"
+                                        ? "Created animations and visual effects with After Effects"
+                                        : app === "DaVinci Resolve"
+                                            ? "Color-graded videos with DaVinci Resolve"
+                                            : ""}
+                            </div>
+                        </div>
+                    ))}
                 </div>
             </div>
         </section>
