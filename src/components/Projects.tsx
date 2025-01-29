@@ -6,7 +6,7 @@ export default function Projects() {
             title: "Overwhelmingly Positive 2022",
             description:
                 "A first-person sword-fighting game with realistic slicing mechanics.",
-            image: "/project1.jpg",
+            video: "/OpwebsitevideoWebgl.webm",
             link: "#",
         },
         {
@@ -50,11 +50,21 @@ export default function Projects() {
                             key={index}
                             className="bg-gray-800 rounded-lg shadow-lg overflow-hidden"
                         >
-                            <img
-                                src={project.image}
-                                alt={project.title}
-                                className="w-full h-48 object-cover"
-                            />
+                            {project.video ? (
+                                <video
+                                    src={project.video}
+                                    autoPlay
+                                    loop
+                                    muted
+                                    className="w-full h-48 object-cover"
+                                />
+                            ) : (
+                                <img
+                                    src={project.image}
+                                    alt={project.title}
+                                    className="w-full h-48 object-cover"
+                                />
+                            )}
                             <div className="p-4">
                                 <h3 className="text-xl font-bold">{project.title}</h3>
                                 <p className="text-gray-400 mb-4">{project.description}</p>
