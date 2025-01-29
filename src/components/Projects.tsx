@@ -16,12 +16,6 @@ export default function Projects() {
             image: "/project2.jpg",
             link: "#",
         },
-        {
-            title: "React Portfolio",
-            description: "A responsive portfolio website built using React.",
-            image: "/project3.jpg",
-            link: "#",
-        },
     ];
 
     const skills = [
@@ -38,33 +32,38 @@ export default function Projects() {
         "After Effects",
     ];
 
+
+    {/* Projects Section */ }
+
     return (
-        <section id="projects" className="py-16 bg-gray-900 text-white">
-            <div className="container mx-auto px-4">
-                <h2 className="text-3xl font-bold mb-6 text-center text-[#e793a7]">
+        <section id="projects" className="py-12 bg-gray-900 text-white">
+            <div className="container mx-auto px-4 md:px-8">
+                <h2 className="text-3xl font-bold mb-6 text-left text-[#e793a7]">
                     My Projects
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
                     {projects.map((project, index) => (
                         <div
                             key={index}
-                            className="bg-gray-800 rounded-lg shadow-lg overflow-hidden"
+                            className="project-card bg-gray-800 shadow-lg overflow-hidden w-full"
                         >
-                            {project.video ? (
-                                <video
-                                    src={project.video}
-                                    autoPlay
-                                    loop
-                                    muted
-                                    className="w-full h-48 object-cover"
-                                />
-                            ) : (
-                                <img
-                                    src={project.image}
-                                    alt={project.title}
-                                    className="w-full h-48 object-cover"
-                                />
-                            )}
+                            <div className="aspect-w-16 aspect-h-9">
+                                {project.video ? (
+                                    <video
+                                        src={project.video}
+                                        autoPlay
+                                        loop
+                                        muted
+                                        className="w-full h-full object-cover"
+                                    />
+                                ) : (
+                                    <img
+                                        src={project.image}
+                                        alt={project.title}
+                                        className="w-full h-full object-cover"
+                                    />
+                                )}
+                            </div>
                             <div className="p-4">
                                 <h3 className="text-xl font-bold">{project.title}</h3>
                                 <p className="text-gray-400 mb-4">{project.description}</p>
@@ -80,12 +79,18 @@ export default function Projects() {
                 </div>
             </div>
 
+
+
+
+
+
+
             {/* Technical Skills Section */}
-            <div className="mt-12">
-                <h2 className="text-4xl font-bold text-[#e793a7] mb-8 text-center">
+            <div className="container mx-auto px-4 md:px-8">
+                <h2 className="text-2xl font-bold mb-6 text-left text-[#e793a7]">
                     Technical Experience
                 </h2>
-                <div className="flex flex-wrap justify-center gap-6">
+                <div className="flex flex-wrap justify-center gap-1">
                     {/* Programming Languages */}
                     {["Java", "C++", "C#", "JavaScript", "Python", "Lua"].map((skill, index) => (
                         <div key={index} className="relative group">
