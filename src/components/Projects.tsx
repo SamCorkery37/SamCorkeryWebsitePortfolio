@@ -13,7 +13,7 @@ export default function Projects() {
             title: "Unreal Engine Adventure",
             description:
                 "An open-world exploration game with AI-driven enemies and interactive environments.",
-            image: "/project2.jpg",
+            video: "/Killblockcutscenes2.mp4",
             link: "#",
         },
     ];
@@ -57,9 +57,11 @@ export default function Projects() {
                                         className="w-full h-full object-cover"
                                     />
                                 ) : (
-                                    <img
-                                        src={project.image}
-                                        alt={project.title}
+                                    <video
+                                        src={project.video}
+                                        autoPlay
+                                        loop
+                                        muted
                                         className="w-full h-full object-cover"
                                     />
                                 )}
