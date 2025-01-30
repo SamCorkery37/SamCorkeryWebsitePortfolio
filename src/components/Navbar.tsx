@@ -3,7 +3,7 @@ import '@/styles/logoStyles.css';
 
 export default function Navbar() {
     return (
-        <nav className="bg-gray-800 text-white py-6">
+        <nav className="bg-gray-800 text-white py-6 fixed top-0 left-0 w-full z-50"> {/* Added 'fixed', 'top-0', 'left-0', 'w-full', and 'z-50' */}
             <div className="container mx-auto flex justify-between items-center">
                 <h1 className="text-3xl font-bold text-[#e793a7]">Sam Corkery</h1>
                 <ul className="flex space-x-6">

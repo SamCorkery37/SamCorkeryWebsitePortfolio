@@ -4,6 +4,7 @@ export default function Projects() {
     const projects = [
         {
             title: "Overwhelmingly Positive",
+            role: "Developer",
             description:
                 "A rocketship platformer based on speed and movement mechanics",
             video: "/OpwebsitevideoWebgl.webm",
@@ -11,6 +12,7 @@ export default function Projects() {
         },
         {
             title: "Kill Block",
+            role: "Developer",
             description:
                 "A third person action game with dynamic slicing mechanics.... and every character is a cube",
             video: "/Killblockcutscenes2.mp4",
@@ -88,13 +90,11 @@ export default function Projects() {
 
 
             {/* Technical Skills Section */}
-            <div className="container mx-auto px-4 md:px-8">
-                <h2 className="text-2xl font-bold mb-6 text-left text-[#e793a7]">
-                    Technical Experience
-                </h2>
+            <div className="container mx-auto px-4 max-w-3xl mt-16"> {/* Adjust max width here */}
+                <h2 className="text-2xl font-bold mb-6 text-[#e793a7]">Technical Skills</h2> {/* Heading alignment */}
                 <div className="flex flex-wrap justify-center gap-1">
                     {/* Programming Languages */}
-                    {["Java", "C++", "C#", "JavaScript", "Python",].map((skill, index) => (
+                    {["Java", "C++", "C#", "JavaScript", "Python"].map((skill, index) => (
                         <div key={index} className="relative group">
                             <span className="skill-block programming">{skill}</span>
                             <div className="tooltip">
@@ -108,9 +108,7 @@ export default function Projects() {
                                                 ? "Designed interactive UIs with JavaScript"
                                                 : skill === "Python"
                                                     ? "Automated workflows with Python scripts"
-                                                    : skill === "Lua"
-                                                        ? "Scripted game logic using Lua"
-                                                        : ""}
+                                                    : ""}
                             </div>
                         </div>
                     ))}
@@ -139,7 +137,7 @@ export default function Projects() {
                                 {engine === "Unity"
                                     ? "Learned game development through Unity, and developed my first full release Overwhelmingly Positive with this amazing engine"
                                     : engine === "Unreal Engine"
-                                        ? "The Limits of Unreals technology seem to have no ceiling, therefor I want to learn every feature I can"
+                                        ? "The Limits of Unreals technology seem to have no ceiling, therefore I want to learn every feature I can"
                                         : ""}
                             </div>
                         </div>

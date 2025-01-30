@@ -3,15 +3,7 @@
     position: relative;
 }
 
-/* Technical Experience Section Adjustments */
-.technical-experience {
-    font-size: 0.875rem;
-    /* Make text smaller */
-}
 
-.technical-skills-container {
-    gap: 0.75rem;
-}
 
 /* Skill Block */
 .skill-block {
