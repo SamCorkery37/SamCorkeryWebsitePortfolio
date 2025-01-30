@@ -25,7 +25,7 @@ export default function Hero() {
                     <h1 className="text-5xl font-bold text-[#e793a7]">Sam Corkery</h1>
                     <p className="text-2xl text-gray-300 mt-3">Game Developer | Web Developer | Producer | Video Editor</p>
                     <p className="text-lg text-gray-400 mt-4 max-w-lg">
-                        Passionate about creating immersive gaming experiences, and writing clean, efficient code. Focused on solving challenges in game development and web technologies.
+                        A developer that has a strong focus on creativity, exploring new and interesting mechanics, writing clean and efficient code, and ready to take on new ideas and challenges.
                     </p>
                 </div>
             </div>

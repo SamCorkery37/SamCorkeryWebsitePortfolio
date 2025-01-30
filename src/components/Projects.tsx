@@ -3,16 +3,16 @@ import '@/styles/projects.css';
 export default function Projects() {
     const projects = [
         {
-            title: "Overwhelmingly Positive 2022",
+            title: "Overwhelmingly Positive",
             description:
-                "A first-person sword-fighting game with realistic slicing mechanics.",
+                "A rocketship platformer based on speed and movement mechanics",
             video: "/OpwebsitevideoWebgl.webm",
             link: "#",
         },
         {
-            title: "Unreal Engine Adventure",
+            title: "Kill Block",
             description:
-                "An open-world exploration game with AI-driven enemies and interactive environments.",
+                "A third person action game with dynamic slicing mechanics.... and every character is a cube",
             video: "/Killblockcutscenes2.mp4",
             link: "#",
         },
@@ -94,7 +94,7 @@ export default function Projects() {
                 </h2>
                 <div className="flex flex-wrap justify-center gap-1">
                     {/* Programming Languages */}
-                    {["Java", "C++", "C#", "JavaScript", "Python", "Lua"].map((skill, index) => (
+                    {["Java", "C++", "C#", "JavaScript", "Python",].map((skill, index) => (
                         <div key={index} className="relative group">
                             <span className="skill-block programming">{skill}</span>
                             <div className="tooltip">
@@ -137,26 +137,28 @@ export default function Projects() {
                             <span className="skill-block engines">{engine}</span>
                             <div className="tooltip">
                                 {engine === "Unity"
-                                    ? "Developed games using Unity"
+                                    ? "Learned game development through Unity, and developed my first full release Overwhelmingly Positive with this amazing engine"
                                     : engine === "Unreal Engine"
-                                        ? "Built immersive worlds in Unreal Engine"
+                                        ? "The Limits of Unreals technology seem to have no ceiling, therefor I want to learn every feature I can"
                                         : ""}
                             </div>
                         </div>
                     ))}
 
                     {/* Video Applications */}
-                    {["Premiere Pro", "After Effects", "DaVinci Resolve"].map((app, index) => (
+                    {["Premiere Pro", "Final Cut", "After Effects", "DaVinci Resolve"].map((app, index) => (
                         <div key={index} className="relative group">
                             <span className="skill-block video">{app}</span>
                             <div className="tooltip">
                                 {app === "Premiere Pro"
                                     ? "Edited professional videos with Premiere Pro"
-                                    : app === "After Effects"
-                                        ? "Created animations and visual effects with After Effects"
-                                        : app === "DaVinci Resolve"
-                                            ? "Color-graded videos with DaVinci Resolve"
-                                            : ""}
+                                    : app === "Final Cut"
+                                        ? "Edited professional videos with Final Cut"
+                                        : app === "After Effects"
+                                            ? "Created animations and visual effects with After Effects"
+                                            : app === "DaVinci Resolve"
+                                                ? "Color-graded videos with DaVinci Resolve"
+                                                : ""}
                             </div>
                         </div>
                     ))}
