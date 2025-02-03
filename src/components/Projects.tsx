@@ -38,10 +38,10 @@ export default function Projects() {
     {/* Projects Section */ }
 
     return (
-        <section id="projects" className="py-12 bg-gray-900 text-white">
+        <section id="projects" className="py-12 text-white" style={{ backgroundColor: "#0e1920" }}>
             <div className="container mx-auto px-4 md:px-8">
                 <h2 className="text-3xl font-bold mb-6 text-left text-[#e793a7]">
-                    My Projects
+                    Solo Developer Projects
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
                     {projects.map((project, index) => (
