@@ -9,7 +9,7 @@ export default function Navbar() {
                 {/* Container for the name and tagline */}
                 <div className="flex flex-col">
                     <h1 className="text-3xl font-bold text-[#e793a7]">Sam Corkery</h1>
-                    <h2 className="text-sm font-bold text-[#A2C2E0]">
+                    <h2 className="text-sm text-[#A2C2E0]">
                         Game Dev | Web Dev | Video Producer | Video Editor
                     </h2>
                 </div>
@@ -91,6 +91,17 @@ export default function Navbar() {
                                 alt="ItchIo"
                                 className="social-icon w-10 h-10"
                             />
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="/SamCorkeryResume2025.pdf"
+                            download="SamCorkeryResume2025.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center justify-center h-14 px-3 border border-white rounded hover:text-[#A2C2E0] transition-colors"
+                        >
+                            Resume
                         </a>
                     </li>
                 </ul>

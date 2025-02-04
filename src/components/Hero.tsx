@@ -24,8 +24,8 @@ export default function Hero() {
                 <div>
 
                     <p className="mt-4 text-lg whitespace-pre-line pt-10 text-[#A2C2E0]">
-                        Gameplay designer/ programmer that focuses on innovative{"\n"} and fun experiences in each project {"\n"} with a heavy focus on optimization and
-                        {"\n"} a video producer/ editor that excels in creative narritive focues story telling
+                        Gameplay designer and programmer dedicated to {"\n"}crafting innovative and engaging experiences with a {"\n"}strong focus on optimization.
+                        {"\n"} Also an experienced video producer and editor, {"\n"}specializing in creative, narrative-driven storytelling.
                     </p>
                 </div>
             </div>

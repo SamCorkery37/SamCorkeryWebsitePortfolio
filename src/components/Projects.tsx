@@ -73,7 +73,7 @@ export default function Projects() {
                                 >
                                     {project.title}
                                 </h3>
-                                <p className="text-gray-400 mb-4">{project.description}</p>
+                                <p className="text-[#A2C2E0] mb-4">{project.description}</p>
 
                                 {/* If the project has a 'links' property, render the icon links; otherwise, render a default text link */}
                                 {project.links ? (
@@ -126,7 +126,9 @@ export default function Projects() {
                                                 ? "Designed interactive UIs with JavaScript"
                                                 : skill === "Python"
                                                     ? "Automated workflows with Python scripts"
-                                                    : ""}
+                                                    : skill === "TypeScript"
+                                                        ? "I built this website using TypeScript with Tailwindcss"
+                                                        : ""}
                             </div>
                         </div>
                     ))}

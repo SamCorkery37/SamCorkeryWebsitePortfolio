@@ -79,7 +79,7 @@ export default function VideoProjects() {
                                 </div>
                                 <div className="p-2">
                                     <h3 className="text-lg font-bold">{project.title}</h3>
-                                    <p className="text-gray-400 text-sm mb-2">
+                                    <p className="text-[#A2C2E0] text-sm mb-2">
                                         {project.description}
                                     </p>
                                     <a
