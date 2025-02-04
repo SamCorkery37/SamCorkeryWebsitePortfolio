@@ -80,6 +80,19 @@ export default function Navbar() {
                             />
                         </a>
                     </li>
+                    <li>
+                        <a
+                            href="https://samcorkery.itch.io/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src="/icons/itchio.svg"
+                                alt="ItchIo"
+                                className="social-icon w-10 h-10"
+                            />
+                        </a>
+                    </li>
                 </ul>
             </div>
         </nav>

@@ -19,3 +19,31 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+@font-face {
+  font-family: 'Titillium Web Light';
+  src: url('/fonts/TitilliumWeb-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+body {
+  font-family: 'Titillium Web Light', sans-serif;
+}
+
+
+@font-face {
+  font-family: 'Corp';
+  src: url('/fonts/Corp.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Midorima-PersonalUse-Regular';
+  src: url('/fonts/Saphifen.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
