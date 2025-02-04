@@ -3,18 +3,20 @@ import '@/styles/logoStyles.css';
 
 export default function Navbar() {
     return (
-        <nav className="text-white py-6 fixed top-0 left-0 w-full z-50"
-            style={{ backgroundColor: "#0e1920" }}>
+        <nav
+            className="text-white py-6 fixed top-0 left-0 w-full z-50"
+            style={{ backgroundColor: "#0e1920" }}
+        >
             <div className="container mx-auto flex justify-between items-center">
                 {/* Container for the name and tagline */}
                 <div className="flex flex-col">
                     <h1 className="text-3xl font-bold text-[#e793a7]">Sam Corkery</h1>
-                    <h2 className="text-sm text-[#A2C2E0]">
+                    <h2 className="text-sm font-bold text-[#A2C2E0]">
                         Game Dev | Web Dev | Video Producer | Video Editor
                     </h2>
                 </div>
-                {/* Social icons remain on the right */}
-                <ul className="flex space-x-6">
+                {/* Social icons remain on the right; hide them on small screens */}
+                <ul className="hidden md:flex space-x-6 items-center">
                     <li>
                         <a
                             href="https://github.com/SamCorkery37"
@@ -95,8 +97,8 @@ export default function Navbar() {
                     </li>
                     <li>
                         <a
-                            href="/SamCorkeryResume2025.pdf"
-                            download="SamCorkeryResume2025.pdf"
+                            href="/resume.pdf"
+                            download="SamCorkery_Resume.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center h-14 px-3 border border-white rounded hover:text-[#A2C2E0] transition-colors"
