@@ -59,7 +59,7 @@ export default function VideoProjects() {
             style={{ backgroundColor: "#0e1920" }}
         >
             <div className="container mx-auto px-4 md:px-8">
-                <h2 className="text-3xl font-bold mb-6 text-left text-[#e793a7]">
+                <h2 className="text-3xl font-bold mb-6 text-left text-[#A2C2E0]">
                     Solo Video Projects
                 </h2>
                 {/* Use gap-x for horizontal gap and gap-y for vertical gap */}

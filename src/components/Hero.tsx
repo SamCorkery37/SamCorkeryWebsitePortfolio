@@ -23,7 +23,7 @@ export default function Hero() {
                 {/* Text Section */}
                 <div>
 
-                    <p className="mt-4 text-lg whitespace-pre-line pt-10 text-[#38b9c6]">
+                    <p className="mt-4 text-lg whitespace-pre-line pt-10 text-[#A2C2E0]">
                         Gameplay designer/ programmer that focuses on innovative{"\n"} and fun experiences in each project {"\n"} with a heavy focus on optimization and
                         {"\n"} a video producer/ editor that excels in creative narritive focues story telling
                     </p>

@@ -5,7 +5,7 @@ export default function AboutMe() {
         >
             <div className="container mx-auto px-4 max-w-3xl"> {/* Adjust max width here */}
 
-                <p className="text-lg text-gray-300 leading-relaxed">
+                <p className="text-lg text-gray-300 leading-relaxed text-[#A2C2E0]">
                     I’m a passionate game developer and web developer with over 10 years
                     of experience in fast-paced, high-volume environments. I’ve built
                     full games in Unity and Unreal Engine, and I specialize in creating

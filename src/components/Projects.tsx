@@ -48,7 +48,7 @@ export default function Projects() {
             style={{ backgroundColor: "#0e1920" }}
         >
             <div className="container mx-auto px-4 md:px-8">
-                <h2 className="text-3xl font-bold mb-6 text-left text-[#e793a7]">
+                <h2 className="text-3xl font-bold mb-6 text-left text-[#A2C2E0]">
                     Solo Developer Projects
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
@@ -109,7 +109,7 @@ export default function Projects() {
 
             {/* Technical Skills Section (unchanged) */}
             <div className="container mx-auto px-4 max-w-3xl mt-16">
-                <h2 className="text-2xl font-bold mb-6 text-[#e793a7]">Technical Skills</h2>
+                <h2 className="text-2xl font-bold mb-6 text-[#A2C2E0]">Technical Skills</h2>
                 <div className="flex flex-wrap justify-center gap-1">
                     {/* Programming Languages */}
                     {["Java", "C++", "C#", "JavaScript", "Python"].map((skill, index) => (
