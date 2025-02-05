@@ -20,6 +20,11 @@ export default function Projects() {
                     url: "https://samcorkery.itch.io/overwhelmingly-positive",
                     icon: "/icons/itchio.svg",
                 },
+                {
+                    platform: "unity",
+
+                    icon: "/icons/Unity.svg",
+                },
             ],
             font: "Corp",
         },
@@ -35,6 +40,11 @@ export default function Projects() {
                     url: "https://github.com/SamCorkery37/CubeSlice",
                     icon: "/icons/github.svg",
                 },
+                {
+                    platform: "unreal",
+
+                    icon: "/icons/Unreal.svg",
+                },
 
             ],
             font: "Midorima-PersonalUse-Regular", // Title uses the "Midorima-PersonalUse-Regular" font.
@@ -45,7 +55,7 @@ export default function Projects() {
         <section
             id="projects"
             className="py-12 text-white"
-            style={{ backgroundColor: "#0e1920" }}
+            style={{ backgroundColor: "#050505" }}
         >
             <div className="container mx-auto px-4 md:px-8">
                 <h2 className="text-3xl font-bold mb-6 text-left text-[#A2C2E0]">
@@ -55,7 +65,7 @@ export default function Projects() {
                     {projects.map((project, index) => (
                         <div
                             key={index}
-                            className="project-card bg-gray-800 shadow-lg overflow-hidden w-full"
+                            className="project-card bg-custom-card shadow-lg overflow-hidden w-full"
                         >
                             <div className="aspect-w-16 aspect-h-9">
                                 <video
@@ -109,7 +119,7 @@ export default function Projects() {
 
             {/* Technical Skills Section (unchanged) */}
             <div className="container mx-auto px-4 max-w-3xl mt-16">
-                <h2 className="text-2xl font-bold mb-6 text-[#A2C2E0]">Technical Skills</h2>
+                <h2 className="text-2xl font-bold mb-6 text-[#A2C2E0] ml-9">Technical Skills</h2>
                 <div className="flex flex-wrap justify-center gap-1">
                     {/* Programming Languages */}
                     {["Java", "C++", "C#", "JavaScript", "Python"].map((skill, index) => (

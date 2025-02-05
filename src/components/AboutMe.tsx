@@ -1,7 +1,7 @@
 export default function AboutMe() {
     return (
         <section id="about" className="py-12 text-white"
-            style={{ backgroundColor: "#0e1920" }}
+            style={{ backgroundColor: "#050505" }}
         >
             <div className="container mx-auto px-4 max-w-3xl"> {/* Adjust max width here */}
 

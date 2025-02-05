@@ -56,17 +56,17 @@ export default function VideoProjects() {
         <section
             id="video-projects"
             className="py-12 text-white"
-            style={{ backgroundColor: "#0e1920" }}
+            style={{ backgroundColor: "#050505" }}
         >
             <div className="container mx-auto px-4 md:px-8">
-                <h2 className="text-3xl font-bold mb-6 text-left text-[#A2C2E0]">
+                <h2 className="text-3xl font-bold mb-6 text-left text-[#A2C2E0] ml-12">
                     Solo Video Projects
                 </h2>
                 {/* Use gap-x for horizontal gap and gap-y for vertical gap */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-x-1 gap-y-4">
                     {projects.map((project, index) => (
                         <div key={index} className="flex justify-center">
-                            <div className="project-card bg-gray-800 shadow-lg overflow-hidden w-full max-w-sm">
+                            <div className="project-card bg-custom-card shadow-lg overflow-hidden w-full max-w-sm">
                                 <div className="aspect-w-4 aspect-h-3">
                                     <iframe
                                         src={project.youtubeEmbed}

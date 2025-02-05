@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <nav
             className="text-white py-6 fixed top-0 left-0 w-full z-50"
-            style={{ backgroundColor: "#0e1920" }}
+            style={{ backgroundColor: "#050505" }}
         >
             <div className="container mx-auto flex justify-between items-center">
                 {/* Container for the name and tagline */}

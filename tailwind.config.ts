@@ -15,6 +15,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'custom-card': '#2b2b2b',
       },
       fontFamily: {
         titillium: ['"Titillium Web Light"', 'sans-serif'],

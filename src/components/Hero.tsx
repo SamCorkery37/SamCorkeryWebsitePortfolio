@@ -2,8 +2,8 @@ export default function Hero() {
     return (
         <section
             id="hero"
-            className="flex items-center justify-center min-h-[40vh] text-white px-8 pt-32"
-            style={{ backgroundColor: "#0e1920" }}
+            className="flex items-center justify-center min-h-[40vh] text-white px-0 pt-32"
+            style={{ backgroundColor: "#050505" }}
         >
             {/* Container for content */}
             <div className="flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-8 py-24">
