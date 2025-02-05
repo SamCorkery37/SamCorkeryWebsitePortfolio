@@ -127,11 +127,11 @@ export default function Projects() {
                             <span className="skill-block programming">{skill}</span>
                             <div className="tooltip">
                                 {skill === "Java"
-                                    ? "Built many backend libraries using Java"
+                                    ? "Learned building backend libraries with Java"
                                     : skill === "C++"
-                                        ? "Developed performance-critical systems with C++"
+                                        ? "Developed performance-critical systems with C++ as well as more complicated and expensive logic for Unreal"
                                         : skill === "C#"
-                                            ? "Created Unity game scripts with C#"
+                                            ? "Leanred game dev using c# and have accumulated a mass library of C# scripts for many dynamic uses"
                                             : skill === "JavaScript"
                                                 ? "Designed interactive UIs with JavaScript"
                                                 : skill === "Python"
@@ -149,7 +149,7 @@ export default function Projects() {
                             <span className="skill-block frameworks">{framework}</span>
                             <div className="tooltip">
                                 {framework === "React"
-                                    ? "Built dynamic web apps using React"
+                                    ? "Built dynamic web apps using React including this one"
                                     : framework === "Angular"
                                         ? "Created scalable applications with Angular"
                                         : framework === "Django"
@@ -179,11 +179,11 @@ export default function Projects() {
                             <span className="skill-block video">{app}</span>
                             <div className="tooltip">
                                 {app === "Premiere Pro"
-                                    ? "Edited professional videos with Premiere Pro"
+                                    ? "My go to editing software of choice, most of my professional career was done in Premiere"
                                     : app === "Final Cut"
-                                        ? "Edited professional videos with Final Cut"
+                                        ? "My preferred software when the a video needs to be more straightforward"
                                         : app === "After Effects"
-                                            ? "Created animations and visual effects with After Effects"
+                                            ? "Created animations and visual effects  and transitions"
                                             : app === "DaVinci Resolve"
                                                 ? "Color-graded videos with DaVinci Resolve"
                                                 : ""}

@@ -97,8 +97,8 @@ export default function Navbar() {
                     </li>
                     <li>
                         <a
-                            href="/resume.pdf"
-                            download="SamCorkery_Resume.pdf"
+                            href="/SamCorkeryResume2025.pdf"
+                            download="SamCorkeryResume2025.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center h-14 px-3 border border-white rounded hover:text-[#A2C2E0] transition-colors"
