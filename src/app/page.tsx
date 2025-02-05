@@ -2,7 +2,6 @@ import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import AboutMe from '@/components/AboutMe';
 import Projects from '@/components/Projects';
-import ContactForm from '@/components/ContactForm';
 import VideoProjects from '@/components/VideoProjects';
 import Footer from '@/components/Footer';
 
