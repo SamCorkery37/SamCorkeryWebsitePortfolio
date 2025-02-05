@@ -10,7 +10,7 @@ export default function Footer() {
                 <p className="mt-2">
                     Built by Sam Corkery.{' '}
                     <a
-                        href="mailto:your-email@example.com"
+                        href="samcorkery37@gmail.com"
                         className="text-blue-500 hover:underline"
                     >
                         Email Me
