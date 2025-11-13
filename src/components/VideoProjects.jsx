@@ -60,7 +60,7 @@ export default function VideoProjects() {
         >
             <div className="container mx-auto px-4 md:px-8">
                 <h2 className="text-3xl font-bold mb-6 text-left text-[#A2C2E0] ml-12">
-                    Solo Video Projects
+                    Video Projects
                 </h2>
                 {/* Use gap-x for horizontal gap and gap-y for vertical gap */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-x-1 gap-y-4">

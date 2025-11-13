@@ -97,6 +97,20 @@ export default function Navbar() {
                     </li>
                     <li>
                         <a
+                            href="https://store.steampowered.com/search/?developer=Piemaster37"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src="/icons/steam.svg"
+                                alt="Steam"
+                                className="social-icon w-10 h-10"
+                            />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
                             href="/SamCorkeryResume2025.pdf"
                             download="SamCorkeryResume2025.pdf"
                             target="_blank"
