@@ -14,7 +14,7 @@ export default function Hero() {
                         <div className="absolute inset-0 rounded-full border-4 border-[#e793a7]"></div>
                         {/* Profile Picture */}
                         <img
-                            src="/me.png"
+                            src="/tempgirlpic.png"
                             alt="Sam Corkery"
                             className="w-56 h-56 rounded-full object-cover"
                         />
@@ -24,8 +24,8 @@ export default function Hero() {
                 <div>
 
                     <p className="mt-4 text-lg whitespace-pre-line pt-10 text-[#A2C2E0]">
-                        Gameplay designer and programmer dedicated to {"\n"}crafting innovative and engaging experiences with a {"\n"}strong focus on optimization.
-                        {"\n"} Also an experienced video producer and editor, {"\n"}specializing in creative, narrative-driven storytelling.
+                        Ill fuck ur dad and kill urmom, {"\n"}no fucks given fr fr. {"\n"}ill do coke off ur dads dick and make ur mom watch
+                        {"\n"} fuck wit me, fuck around n fiiind out, {"\n"}now comeerreee and lemme sell u some shiiii
                     </p>
                 </div>
             </div>

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sam Corkery",
+  title: "Doin stuff w Kate u sluts fu wi me",
   description: "Portfolio",
   icons: {
     icon: "/websitelogo.PNG", // This is the path to your favicon file

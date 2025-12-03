@@ -10,9 +10,9 @@ export default function Navbar() {
             <div className="container mx-auto flex justify-between items-center">
                 {/* Container for the name and tagline */}
                 <div className="flex flex-col">
-                    <h1 className="text-3xl font-bold text-[#e793a7]">Sam Corkery</h1>
+                    <h1 className="text-3xl font-bold text-[#e793a7]">Kate Tomlin</h1>
                     <h2 className="text-sm font-bold text-[#A2C2E0]">
-                        Game Dev | Web Dev | Video Producer | Video Editor
+                        Cool Stuff | Rad Things | Wanna see my titties? | You know you wanna
                     </h2>
                 </div>
                 {/* Social icons remain on the right; hide them on small screens */}
